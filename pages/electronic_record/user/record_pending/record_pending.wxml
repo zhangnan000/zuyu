@@ -1,0 +1,29 @@
+<view class='container'>
+  <view class='description'>
+    情况描述
+    <image src='/images/electronics_record/more-color.png'></image>
+    <view class='line'></view>
+  </view>
+  <view>
+    <view class='title'>
+      我的护理
+    </view>
+    <view class='tips'>
+      请于2018.05.06到本店进行护理
+      <button>我要改期</button>
+    </view>
+  </view>
+  <view class='info'>
+    <view class='shop'>
+      <text class='fs-32'>陈益乾</text><text> 铺达美容会所</text>
+      <view>2018.03.06</view>
+      <image src='https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=4263186336,2905562668&fm=173&app=25&f=JPEG?w=218&h=146&s=3BF4278E5F3378806ED5C47B03005078'></image>
+    </view>
+    <view class='recovery-info'>
+      <view><text>恢复情况：</text>病体界限分布清分布清界限分布清分布</view>
+      <view><text>上药目的：</text>软化病灶</view>
+    </view>
+    <view class='remarks'>备注：无</view>
+    <button>确认</button>
+  </view>
+</view>

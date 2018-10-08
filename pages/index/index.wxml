@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap='jump_to_record'>点击进入病历</view>
+</view>

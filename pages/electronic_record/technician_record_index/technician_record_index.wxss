@@ -1,0 +1,133 @@
+.search_box{
+  width:680rpx;
+  height: 65rpx;
+  border:1px solid #e6e6e6;
+  margin:0 auto;
+  border-radius: 8rpx;
+  display: flex;
+}
+.search_box>input{
+  display: block;
+  width:600rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-left:20rpx;
+}
+.search_box>image{
+  width:50rpx;
+  height: 50rpx;
+  display: block;
+  margin-top:6rpx;
+}
+/* 预约tabbar */
+.appointment_tabbar{
+  width:690rpx;
+  display: flex;
+   height: 80rpx;
+  margin:0 auto;
+  border-bottom:2rpx solid #a8c640;
+  overflow: hidden;
+}
+.appointment_tabbar_list{
+  flex: 1;
+  text-align: center;
+  border-right: 1rpx solid #ededed;
+  height: 26rpx;
+  margin-top:29rpx;
+  line-height: 26rpx;
+  color:#7b8073;
+}
+.appointment_tabbar_list_active{
+  color:#8bb247;
+}
+.appointment_tabbar_list:nth-child(3){
+  border-right: 0;
+}
+/* 预约列表 */
+.appointment_total{
+  height: auto;
+  width:690rpx;
+  margin:0 auto;
+}
+.appointment_today_box{
+  width:100%;
+  height: auto;
+}
+.appointment_today_title{
+  width:100%;
+  height: 30rpx;
+  color:#a3a69d;
+  font-size: 30rpx;
+  margin-top:40rpx;
+}
+.appointment_today_list{
+  width:100%;
+  height: 309rpx;
+  border-bottom:2rpx solid #ededed;
+  padding-top:40rpx;
+}
+.appointment_people_con{
+  width:100%;
+  height: 150rpx;
+  border-radius: 8rpx;
+  background: #f7f7f7;
+  display: flex;
+}
+.appointment_people_con image:nth-child(1){
+  display: block;
+  width:80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  margin-left:38rpx;
+  margin-top:35rpx;
+}
+.appointment_people_title{
+  width:500rpx;
+  height: 100%;
+  padding-top:40rpx;
+  margin-left:32rpx;
+}
+.appointment_people_code{
+  color:#a3a69d;
+  font-size: 26rpx;
+  line-height: 26rpx;
+}
+.appointment_people_name{
+  color:#8bb247;
+  font-size: 30rpx;
+  line-height: 35rpx;
+  margin-top:15rpx;
+}
+.appointment_people_con image:nth-child(3){
+  display: block;
+  width:48rpx;
+  height: 48rpx;
+  margin-top:51rpx;
+}
+.appointment_people_time{
+  width: 100%;
+  height: 65rpx;
+  line-height: 65rpx;
+  background: #8bb247;
+  border-radius: 8rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top:12rpx;
+  /* padding-right:29rpx; */
+  padding-left:20rpx;
+}
+.appointment_people_left{
+  color: #fff;
+}
+.appointment_people_time>image{
+  display: block;
+  width:48rpx;
+  height: 48rpx;
+  margin-top:8.5rpx;
+}
+.appointment_again_box .appointment_people_time{
+  background: #f7f7f7;
+}
+.appointment_again_box .appointment_people_left{
+  color: #333;
+}

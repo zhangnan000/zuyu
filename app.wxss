@@ -1,0 +1,11 @@
+text{
+    font-family: 'PingFang SC','Roboto','Arial','Microsoft Yahei','simsun','arial','tahoma';
+    font-size:26rpx;
+    color:#333;
+} 
+
+view{
+  font-family:'PingFang SC','Roboto','Arial','Microsoft Yahei','simsun','arial','tahoma';  color: #333;
+  font-size:26rpx;
+  box-sizing: border-box;
+}

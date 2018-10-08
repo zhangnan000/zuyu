@@ -1,0 +1,93 @@
+<!--logs.wxml-->
+<view class="container_technician">
+  <view class='search_box'>
+    <input placeholder='按卡号,按姓名'></input>
+    <image src='/images/electronics_record/search_anli.png'></image>
+  </view>
+  <!-- 预约title -->
+  <view class='appointment_tabbar'>
+    <view class='appointment_tabbar_list'>
+      我的预约
+    </view>
+    <view class='appointment_tabbar_list'>
+      我的完成
+    </view>
+    <view class='appointment_tabbar_list'>
+      本店预约
+    </view>
+  </view>
+  <view class='appointment_total'>
+    <!-- 今日预约 -->
+    <view class='appointment_today_box'>
+      <view class='appointment_today_title'>今日预约</view>
+      <view class='appointment_today_list'>
+        <view class='appointment_people_con'>
+          <image src='/images/electronics_record/myfriend.png'></image>
+          <view class='appointment_people_title'>
+            <view class='appointment_people_code'>4545646</view>
+            <view class='appointment_people_name'>江户川</view>
+          </view>
+          <image src='/images/electronics_record/more-color.png'></image>
+        </view>
+        <view class='appointment_people_time'>
+          <view class='appointment_people_left'>
+            已预约：2018.05.06
+          </view>
+          <image src='/images/electronics_record/more.png'></image>
+        </view>
+      </view>
+    </view>
+    <!-- 以后预约 -->
+    <view class='appointment_again_box'>
+      <view class='appointment_today_title'>以后预约</view>
+      <view class='appointment_today_list'>
+        <view class='appointment_people_con'>
+          <image src='/images/electronics_record/myfriend.png'></image>
+          <view class='appointment_people_title'>
+            <view class='appointment_people_code'>4545646</view>
+            <view class='appointment_people_name'>江户川</view>
+          </view>
+          <image src='/images/electronics_record/more-color.png'></image>
+        </view>
+        <view class='appointment_people_time'>
+          <view class='appointment_people_left'>
+            已预约：2018.05.06
+          </view>
+          <image src='/images/electronics_record/more-color.png'></image>
+        </view>
+      </view>
+       <view class='appointment_today_list'>
+        <view class='appointment_people_con'>
+          <image src='/images/electronics_record/myfriend.png'></image>
+          <view class='appointment_people_title'>
+            <view class='appointment_people_code'>4545646</view>
+            <view class='appointment_people_name'>江户川</view>
+          </view>
+          <image src='/images/electronics_record/more-color.png'></image>
+        </view>
+        <view class='appointment_people_time'>
+          <view class='appointment_people_left'>
+            已预约：2018.05.06
+          </view>
+          <image src='/images/electronics_record/more-color.png'></image>
+        </view>
+      </view>
+       <view class='appointment_today_list'>
+        <view class='appointment_people_con'>
+          <image src='/images/electronics_record/myfriend.png'></image>
+          <view class='appointment_people_title'>
+            <view class='appointment_people_code'>4545646</view>
+            <view class='appointment_people_name'>江户川</view>
+          </view>
+          <image src='/images/electronics_record/more-color.png'></image>
+        </view>
+        <view class='appointment_people_time'>
+          <view class='appointment_people_left'>
+            已预约：2018.05.06
+          </view>
+          <image src='/images/electronics_record/more-color.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

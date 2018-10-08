@@ -1,0 +1,64 @@
+/* 我的病历历史 */
+
+.fc-green {
+  color: #8bb247;
+}
+
+.title {
+  width: 100%;
+  height: 126rpx;
+  line-height: 126rpx;
+}
+
+.card {
+  box-sizing: border-box; 
+  width: 690rpx;
+	height: 367rpx;
+	background-color: #ffffff;
+	border-radius: 16rpx;
+	border: solid 1px #8bb247;
+  padding: 43rpx 20rpx;
+}
+
+.card-top,
+.card-bottom {
+  box-sizing: border-box;  
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  padding:30rpx 23rpx;
+  line-height: 34rpx;
+  font-size: 28rpx;
+  border-radius: 16rpx;
+}
+
+.card-top {
+  height: 208rpx;
+}
+.card-bottom {
+  margin-top:10rpx;
+  height: 65rpx;
+  align-items: center;
+}
+.card-bottom button {
+  width: 130rpx;
+  height: 40rpx;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  margin: 0;
+  padding: 0;
+  background-color: #8bb247;
+  color: #fff;
+}
+
+.card-top .left,
+.card-top .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.history .card {
+  border-color: #eee;
+}
